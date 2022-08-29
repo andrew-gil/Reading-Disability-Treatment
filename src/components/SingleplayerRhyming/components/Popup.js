@@ -31,7 +31,7 @@ export const Popup = ({correctWords, setPlayable, restart, difficulty, isStarted
 }
 
 export const StartSPRhyming = ({isStarted, easy, medium, hard}) => {
-  let instructions = 'Type as many words that rhyme with the given word as you can within the given time.';
+  let instructions = 'Type as many words as you can that rhyme within the given word within the given time.';
   let clarification = 'Correct rhymes will be given points, but incorrect rhymes will not be penalized.';
   return (
     <div className="start-container" style={!isStarted ? {display:'flex'} : {}}>

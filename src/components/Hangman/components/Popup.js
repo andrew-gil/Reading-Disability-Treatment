@@ -32,7 +32,7 @@ export const Popup = ({correctLetters, wrongLetters, selectedWord, setPlayable, 
 }
 
 export const StartHangman = ({isStarted, easy, medium, hard}) => {
-  let instructions = 'You will hear a word, but will only be given some of the letters. Type in the missing letters.';
+  let instructions = 'You will hear a word, but you will only be given some of the letters. Type in the missing letters.';
   let clarification = 'You may type in the missing letters in any order.';
   return (
     <div className="start-container" style={!isStarted ? {display:'flex'} : {}}>
