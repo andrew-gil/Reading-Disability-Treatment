@@ -8,7 +8,7 @@ import './index.scss'
 
 const Home = () => {
     const [letterClass] = useState('text-animate');
-    const welcomeArray = ['G', 'e', 't', ' ', 'b', 'e', 't', 't', 'e', 'r', ' ', 'a', 't', ' ', 'r', 'e', 'a', 'd', 'i', 'n', 'g', '!'];
+    const welcomeArray = ['B', 'e', 't', ' ', 'b', 'e', 't', 't', 'e', 'r', ' ', 'a', 't', ' ', 'r', 'e', 'a', 'd', 'i', 'n', 'g', '!'];
     const playArray = ['P', 'l', 'a', 'y', ' ', 'f', 'u', 'n', ' ', 'g', 'a', 'm', 'e', 's', ',', ' ', 'e', 'a', 'r', 'n', ' ', 'p', 'o', 'i', 'n', 't', 's', ',',' ', 'a', 'n','d',' ','l','e','v','e','l',' ','u','p','!'];
     //const getArray = ['G', 'e', 't'];
     //const betterArray = ['b', 'e', 't', 't', 'e', 'r'];
